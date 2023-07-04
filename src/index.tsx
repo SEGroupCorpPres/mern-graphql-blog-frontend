@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 const client = new ApolloClient({
-    uri: 'http://localhost:5000/graphql',
+    uri: 'https://graphql-blog-backend.onrender.com/graphql',
     cache: new InMemoryCache(),
 });
 
